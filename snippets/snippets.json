@@ -4,16 +4,17 @@
 		"description": "create new react component skeleton",
 		"body": [
 			"import React, { Component } from 'react'",
-			"\t$0",
+			"$0",
 			"export default class ${1:name} extends Component {",
-			"\t$0",
-			"\trender() {",
+			"$0",
+			"\trender () {",
 			"\t\treturn (",
 			"\t\t\t${2:element}",
 			"\t\t)",
 			"\t}",
-			"\t$0",
-			"}"
+			"$0",
+			"}",
+			"$0"
 		]
 	},
 	"ES6 Class": {
