@@ -22,15 +22,19 @@
 		"description": "create an simple ES6 class",
 		"body": [
 			"export default class ${1:name} {",
-			"}"
+			"$0",
+			"\t$2",
+			"$0",
+			"}",
+			"$0"
 		]
 	},
 	"ES6 Constructor": {
 		"prefix": "constructor",
 		"description": "create an class constructor",
 		"body": [
-			"constructor() {",
-			"\t$1",
+			"constructor ($1) {",
+			"\t$2",
 			"}"
 		]
 	},
@@ -38,8 +42,8 @@
 		"prefix": "method",
 		"description": "create an class method",
 		"body": [
-			"${1:name} () {",
-			"\t${2:code}",
+			"$1 ($2) {",
+			"\t$3",
 			"}"
 		]
 	}
