@@ -1,45 +1,45 @@
 {
-  "React Component": {
-    "prefix": "export",
-    "description": "create new react component skeleton",
-    "body": [
-      "import React, { Component } from 'react'",
-      "\t$0",
-      "export default class ${1:name} extends Component {",
-      "\t$0",
-      "\trender() {",
-      "\t\treturn (",
-      "\t\t\t${2:element}",
-      "\t\t)",
-      "\t}",
-      "\t$0",
-      "}"
-    ]
-  },
-  "ES6 Class": {
-    "prefix": "export",
-    "description": "create an simple ES6 class",
-    "body": [
-      "export default class ${1:name} {",
-      "}"
-    ]
-  },
-  "ES6 Constructor": {
-    "prefix": "constructor",
-    "description": "create an class constructor",
-    "body": [
-      "constructor() {",
-      "\t$1",
-      "}"
-    ]
-  },
-  "ES6 Method": {
-    "prefix": "method",
-    "description": "create an class method",
-    "body": [
-      "${1:name} () {",
-      "\t${2:code}",
-      "}"
-    ]
-  }
+	"React Component": {
+		"prefix": "class",
+		"description": "create new react component skeleton",
+		"body": [
+			"import React, { Component } from 'react'",
+			"\t$0",
+			"export default class ${1:name} extends Component {",
+			"\t$0",
+			"\trender() {",
+			"\t\treturn (",
+			"\t\t\t${2:element}",
+			"\t\t)",
+			"\t}",
+			"\t$0",
+			"}"
+		]
+	},
+	"ES6 Class": {
+		"prefix": "class",
+		"description": "create an simple ES6 class",
+		"body": [
+			"export default class ${1:name} {",
+			"}"
+		]
+	},
+	"ES6 Constructor": {
+		"prefix": "constructor",
+		"description": "create an class constructor",
+		"body": [
+			"constructor() {",
+			"\t$1",
+			"}"
+		]
+	},
+	"ES6 Method": {
+		"prefix": "method",
+		"description": "create an class method",
+		"body": [
+			"${1:name} () {",
+			"\t${2:code}",
+			"}"
+		]
+	}
 }
