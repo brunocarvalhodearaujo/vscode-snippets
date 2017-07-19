@@ -11,6 +11,8 @@
 			"\t\tchildren: PropTypes.any",
 			"\t}",
 			"$0",
+			"\tstatic defaultProps = {}",
+			"$0",
 			"\trender () {",
 			"\t\treturn (",
 			"\t\t\t${2:<p>working</p>}",
