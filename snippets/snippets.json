@@ -4,47 +4,20 @@
 		"description": "create new react component skeleton",
 		"body": [
 			"import React, { Component } from 'react'",
+			"import PropTypes from 'prop-types'",
 			"$0",
-			"export default class ${1:name} extends Component {",
+			"export default class ${1:Example} extends Component {",
+			"\tstatic propTypes = {",
+			"\t\tchildren: PropTypes.any",
+			"\t}",
 			"$0",
 			"\trender () {",
 			"\t\treturn (",
-			"\t\t\t${2:element}",
+			"\t\t\t${2:<p>working</p>}",
 			"\t\t)",
 			"\t}",
-			"$0",
 			"}",
 			"$0"
-		]
-	},
-	"ES6 Class": {
-		"prefix": "class",
-		"description": "create an simple ES6 class",
-		"body": [
-			"export default class ${1:name} {",
-			"$0",
-			"\t$2",
-			"$0",
-			"}",
-			"$0"
-		]
-	},
-	"ES6 Constructor": {
-		"prefix": "constructor",
-		"description": "create an class constructor",
-		"body": [
-			"constructor ($1) {",
-			"\t$2",
-			"}"
-		]
-	},
-	"ES6 Method": {
-		"prefix": "method",
-		"description": "create an class method",
-		"body": [
-			"$1 ($2) {",
-			"\t$3",
-			"}"
 		]
 	}
 }
