@@ -3,7 +3,7 @@
   "description": "vscode snippets for JavaScript and typescript",
   "version": "0.0.1",
   "displayName": "VSCode Snippets",
-  "publisher": "brunocarvalhodearaujo <brunocarvalhodearaujo@gmail.com>",
+  "publisher": "brunocarvalhodearaujo",
   "license": "MIT",
   "engines": {
     "vscode": "0.10.x"
