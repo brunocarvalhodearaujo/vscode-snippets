@@ -14,7 +14,21 @@
     "Keymaps"
   ],
   "extensionDependencies": [
-    "PeterJausovec.vscode-docker"
+    "alefragnani.bookmarks",
+    "chenxsan.vscode-standardjs",
+    "christian-kohler.npm-intellisense",
+    "christian-kohler.path-intellisense",
+    "codezombiech.gitignore",
+    "CoenraadS.bracket-pair-colorizer",
+    "eamodio.gitlens",
+    "EditorConfig.editorconfig",
+    "felixfbecker.php-intellisense",
+    "formulahendry.auto-close-tag",
+    "lukasz-wronski.ftp-sync",
+    "PeterJausovec.vscode-docker",
+    "pflannery.vscode-versionlens",
+    "PKief.material-icon-theme",
+    "wix.vscode-import-cost"
   ],
   "contributes": {
     "snippets": [
