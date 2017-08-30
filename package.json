@@ -25,10 +25,10 @@
     ],
     "keybindings": [
       {
-        "key": "ctrl+f1",
-        "mac": "cmd+f1",
-        "when": "editorTextFocus",
+        "key": "ctrl+b",
+        "mac": "cmd+b",
         "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
         "args": { "name": "react-component" }
       }
     ]
