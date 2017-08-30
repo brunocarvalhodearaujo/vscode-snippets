@@ -1,17 +1,17 @@
 {
-	"React Component": {
-		"prefix": "react-component",
+	"react-component": {
+		"prefix": "component",
 		"description": "create new react component skeleton",
 		"body": [
 			"import React, { ${1|Component,PureComponent|} } from 'react'",
 			"import PropTypes from 'prop-types'",
 			"$0",
-			"export default class ${2:$TM_FILENAME} extends $1 {",
+			"export default class ${2:$TM_SELECTED_TEXT} extends $1 {",
 			"\tstatic propTypes = {\n\t\tchildren: PropTypes.element\n\t}\n$0",
 			"\tstatic defaultprops = {}\n$0",
 			"\trender () {",
 			"\t\treturn (",
-			"\t\t\t${4:<p>hello from $2</p>}",
+			"\t\t\t${4:<div>hello from $2</div>}",
 			"\t\t)",
 			"\t}",
 			"}",
