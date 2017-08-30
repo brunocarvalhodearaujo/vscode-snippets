@@ -1,6 +1,6 @@
 {
 	"react-component": {
-		"prefix": "react-component",
+		"prefix": "jsx-component",
 		"description": "create new react component skeleton",
 		"body": [
 			"import React, { ${1|Component,PureComponent|} } from 'react'",
