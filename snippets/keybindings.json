@@ -1,8 +1,0 @@
-[
-  {
-    "key": "ctrl+b",
-    "command": "editor.action.insertSnippet",
-    "when": "editorTextFocus",
-    "args": { "name": "react-component" }
-  }
-]

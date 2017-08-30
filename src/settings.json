@@ -1,0 +1,47 @@
+{
+    "javascript.validate.enable": false,
+    "editor.renderIndentGuides": true,
+    "editor.fontSize": 12.1,
+    "files.autoSave": "onFocusChange",
+    "extensions.autoUpdate": true,
+    "npm-intellisense.scanDevDependencies": true,
+    "npm-intellisense.packageSubfoldersIntellisense": true,
+    "npm-intellisense.showBuildInLibs": true,
+    "window.menuBarVisibility": "toggle",
+    "workbench.iconTheme": "material-icon-theme",
+    "files.associations": {
+      "yarn.lock": "yaml",
+      "styles.txt": "css"
+    },
+    "workbench.activityBar.visible": true,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "editor.rulers": [
+      80,
+      120
+    ],
+    "standard.options": {
+      "plugins": [
+        "flowtype"
+      ],
+      "parser": "babel-eslint"
+    },
+    "standard.autoFixOnSave": true,
+    "workbench.editor.enablePreview": false,
+    "importCost.typescriptExtensions": [
+      "\\.tsx?$",
+      "\\.ts?$"
+    ],
+    "importCost.javascriptExtensions": [
+      "\\.js?$",
+      "\\.jsx?$"
+    ],
+    "editor.minimap.enabled": false,
+    "explorer.openEditors.visible": 0,
+    "php.suggest.basic": false,
+    "terminal.integrated.fontSize": 12,
+    "javascript.referencesCodeLens.enabled": true,
+    "window.zoomLevel": 0,
+    "git.confirmSync": false,
+    "workbench.colorTheme": "Default Light+",
+    "editor.tabCompletion": true
+  }

@@ -1,37 +1,35 @@
 {
   "name": "react-snippets",
-  "description": "React code snippets for JavaScript in ES6 syntax",
+  "description": "vscode snippets for JavaScript and typescript",
   "version": "0.0.1",
-  "displayName": "React Snippets",
-  "publisher": "brunocarvalhodearaujo",
-  "license": "SEE LICENSE IN LICENSE.md",
+  "displayName": "VSCode Snippets",
+  "publisher": "brunocarvalhodearaujo <brunocarvalhodearaujo@gmail.com>",
+  "license": "MIT",
   "engines": {
     "vscode": "0.10.x"
   },
   "categories": [
-    "Snippets"
+    "Extension Packs",
+    "Snippets",
+    "Keymaps"
+  ],
+  "extensionDependencies": [
+    "PeterJausovec.vscode-docker"
   ],
   "contributes": {
     "snippets": [
+      { "language": "javascriptreact", "path": "./src/snippets.json" },
+      { "language": "javascript", "path": "./src/snippets.json" },
+      { "language": "typescript", "path": "./src/snippets.json" },
+      { "language": "typescriptreact", "path": "./src/snippets.json" }
+    ],
+    "keybindings": [
       {
-        "language": "javascript",
-        "path": "./snippets/snippets.json"
-      },
-      {
-        "language": "typescript",
-        "path": "./snippets/snippets.json"
-      },
-      {
-        "language": "javascriptreact",
-        "path": "./snippets/snippets.json"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/snippets.json"
-      },
-      {
-        "language": "html",
-        "path": "./snippets/snippets.json"
+        "key": "ctrl+f1",
+        "mac": "cmd+f1",
+        "when": "editorTextFocus",
+        "command": "editor.action.insertSnippet",
+        "args": { "name": "react-component" }
       }
     ]
   }
