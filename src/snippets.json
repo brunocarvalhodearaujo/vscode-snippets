@@ -1,17 +1,18 @@
 {
-	"react-component": {
+  "react-component": {
 		"prefix": "component",
-		"description": "create new react component skeleton",
+		"description": "create new flowtype react component",
 		"body": [
+      "// @flow",
 			"import React, { ${1|Component,PureComponent|} } from 'react'",
-			"import PropTypes from 'prop-types'",
-			"$0",
-			"export default class ${2:$TM_FILENAME_BASE} extends $1 {",
+			"import PropTypes from 'prop-types'\n$0",
+      "type Props = {\n\tchildren: any\n}\n$0",
+			"export default class ${2:$TM_FILENAME_BASE} extends $1<Props> {",
 			"\tstatic propTypes = {\n\t\tchildren: PropTypes.element\n\t}\n$0",
 			"\tstatic defaultProps = {}\n$0",
 			"\trender () {",
 			"\t\treturn (",
-			"\t\t\t${4:<div>hello from $2</div>}",
+			"\t\t\t<p>$2</p>",
 			"\t\t)",
 			"\t}",
 			"}",
